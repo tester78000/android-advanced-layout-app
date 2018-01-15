@@ -32,5 +32,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onReplaceFragment(View view) {
+       getFragmentManager()
+               .beginTransaction()
+               .replace(R.id.fragment1, new FragmentB())
+               .commit();
     }
 }
