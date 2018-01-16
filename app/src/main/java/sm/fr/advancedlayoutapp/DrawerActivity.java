@@ -1,5 +1,6 @@
 package sm.fr.advancedlayoutapp;
 
+import android.app.Fragment;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -72,9 +73,9 @@ public class DrawerActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            navigateToFragment(new FragmentB());
         } else if (id == R.id.nav_gallery) {
-
+            navigateToFragment(new FragmentInscription());
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
@@ -85,5 +86,17 @@ public class DrawerActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    /**
+     * Affichage du fragment passé en argument à la place
+     * du composant identifié comme fragmentContainer
+     * @param targetFragment
+     */
+    private void navigateToFragment(Fragment targetFragment){
+        getFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragmentContainer, targetFragment)
+                .commit();
     }
 }
