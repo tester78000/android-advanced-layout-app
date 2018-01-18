@@ -1,0 +1,377 @@
+{
+  nhits: 62,
+  parameters: {
+    dataset: [
+      "stations-metro"
+    ],
+    timezone: "UTC",
+    rows: 10,
+    format: "json",
+    facet: [
+      "commune"
+    ]
+  },
+  records: [
+    {
+      datasetid: "stations-metro",
+      recordid: "fc85f7c94626ddac85b4c61d4fc56df4dfe2b02a",
+      fields: {
+        commune: "LILLE",
+        insee: "350",
+        objectid: "7",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.0628135342366,
+            50.635366114256
+          ]
+        },
+        ligne: "1",
+        geo_point_2d: [
+          50.635366114256,
+          3.0628135342366
+        ],
+        nom_statio: "RIHOUR"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.0628135342366,
+          50.635366114256
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "56031685509dbd6f6a9c87cbe23277b851bd5de7",
+      fields: {
+        commune: "VILLENEUVE D'ASCQ",
+        insee: "009",
+        objectid: "15",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.1308012477689,
+            50.619180161032
+          ]
+        },
+        ligne: "1",
+        geo_point_2d: [
+          50.619180161032,
+          3.1308012477689
+        ],
+        nom_statio: "VILLENEUVE D'ASCQ HOTEL DE VILLE"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.1308012477689,
+          50.619180161032
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "c2e9aa0196bc67b758d67a3830b58b2be761dedd",
+      fields: {
+        commune: "LILLE",
+        insee: "350",
+        objectid: "109",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.0307630273727,
+            50.633894635444
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.633894635444,
+          3.0307630273727
+        ],
+        nom_statio: "BOIS BLANC"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.0307630273727,
+          50.633894635444
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "1ea0df60c75a41611dfa14fb7130654400f89678",
+      fields: {
+        commune: "LILLE",
+        insee: "350",
+        objectid: "110",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.0243390103697,
+            50.637338607553
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.637338607553,
+          3.0243390103697
+        ],
+        nom_statio: "CANTELEU"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.0243390103697,
+          50.637338607553
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "dfa7a3a2fcb8ec0b3f1945dccaabb4e4a371ecf1",
+      fields: {
+        commune: "CROIX",
+        insee: "163",
+        objectid: "127",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.1561488051861,
+            50.679469545579
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.679469545579,
+          3.1561488051861
+        ],
+        nom_statio: "MAIRIE DE CROIX"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.1561488051861,
+          50.679469545579
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "25b9a789eee4ded1e8d9479a0549b115dd256143",
+      fields: {
+        commune: "ROUBAIX",
+        insee: "512",
+        objectid: "129",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.1698029569285,
+            50.686915953434
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.686915953434,
+          3.1698029569285
+        ],
+        nom_statio: "ROUBAIX CHARLES DE GAULLE"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.1698029569285,
+          50.686915953434
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "151631f08d98ac01cc21ba9f2b2ab0a9784a106f",
+      fields: {
+        commune: "TOURCOING",
+        insee: "599",
+        objectid: "140",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.1705866352391,
+            50.736798650875
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.736798650875,
+          3.1705866352391
+        ],
+        nom_statio: "PONT DE NEUVILLE"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.1705866352391,
+          50.736798650875
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "f9326a9610e8c2ce25afcf0b646e55d114cbf94e",
+      fields: {
+        commune: "LILLE",
+        insee: "350",
+        objectid: "144",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.070986975543,
+            50.63745511401
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.63745511401,
+          3.070986975543
+        ],
+        nom_statio: "GARE LILLE FLANDRES"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.070986975543,
+          50.63745511401
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "d2d6ada575e30e96ebc217e8b4b805ef96771c7e",
+      fields: {
+        commune: "CROIX",
+        insee: "163",
+        objectid: "126",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.1461794540337,
+            50.674719456721
+          ]
+        },
+        ligne: "2",
+        geo_point_2d: [
+          50.674719456721,
+          3.1461794540337
+        ],
+        nom_statio: "CROIX CENTRE"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.1461794540337,
+          50.674719456721
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    },
+    {
+      datasetid: "stations-metro",
+      recordid: "ce6baba12d4d1ccb5d4e255504ff1bf876b60cef",
+      fields: {
+        commune: "LILLE",
+        insee: "350",
+        objectid: "5",
+        geometry: {
+          type: "Point",
+          coordinates: [
+            3.0526946603751,
+            50.626923035327
+          ]
+        },
+        ligne: "1",
+        geo_point_2d: [
+          50.626923035327,
+          3.0526946603751
+        ],
+        nom_statio: "GAMBETTA"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          3.0526946603751,
+          50.626923035327
+        ]
+      },
+      record_timestamp: "2017-12-31T16:53:16+00:00"
+    }
+  ],
+  facet_groups: [
+    {
+      name: "commune",
+      facets: [
+        {
+          name: "LILLE",
+          path: "LILLE",
+          count: 25,
+          state: "displayed"
+        },
+        {
+          name: "TOURCOING",
+          path: "TOURCOING",
+          count: 9,
+          state: "displayed"
+        },
+        {
+          name: "VILLENEUVE D'ASCQ",
+          path: "VILLENEUVE D'ASCQ",
+          count: 7,
+          state: "displayed"
+        },
+        {
+          name: "LOMME (LILLE)",
+          path: "LOMME (LILLE)",
+          count: 6,
+          state: "displayed"
+        },
+        {
+          name: "ROUBAIX",
+          path: "ROUBAIX",
+          count: 6,
+          state: "displayed"
+        },
+        {
+          name: "MONS EN BAROEUL",
+          path: "MONS EN BAROEUL",
+          count: 3,
+          state: "displayed"
+        },
+        {
+          name: "CROIX",
+          path: "CROIX",
+          count: 2,
+          state: "displayed"
+        },
+        {
+          name: "HELLEMMES (LILLE)",
+          path: "HELLEMMES (LILLE)",
+          count: 2,
+          state: "displayed"
+        },
+        {
+          name: "WASQUEHAL",
+          path: "WASQUEHAL",
+          count: 2,
+          state: "displayed"
+        }
+      ]
+    }
+  ]
+}

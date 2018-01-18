@@ -2,7 +2,7 @@ package sm.fr.advancedlayoutapp.model;
 
 
 
-public class RandomUser {
+public class _RandomUser {
 
     private String name;
 
@@ -12,14 +12,14 @@ public class RandomUser {
 
     private Double longitude;
 
-    public RandomUser() {
+    public _RandomUser() {
     }
 
     public String getName() {
         return name;
     }
 
-    public RandomUser setName(String name) {
+    public _RandomUser setName(String name) {
         this.name = name;
         return this;
     }
@@ -28,7 +28,7 @@ public class RandomUser {
         return email;
     }
 
-    public RandomUser setEmail(String email) {
+    public _RandomUser setEmail(String email) {
         this.email = email;
         return this;
     }
@@ -37,7 +37,7 @@ public class RandomUser {
         return latitude;
     }
 
-    public RandomUser setLatitude(Double latitude) {
+    public _RandomUser setLatitude(Double latitude) {
         this.latitude = latitude;
         return this;
     }
@@ -46,7 +46,7 @@ public class RandomUser {
         return longitude;
     }
 
-    public RandomUser setLongitude(Double longitude) {
+    public _RandomUser setLongitude(Double longitude) {
         this.longitude = longitude;
         return this;
     }

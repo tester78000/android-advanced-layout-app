@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/android-advanced-layout-app.iml" filepath="$PROJECT_DIR$/.idea/android-advanced-layout-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyAppWithFirebase.iml" filepath="$PROJECT_DIR$/.idea/MyAppWithFirebase.iml" />
+      <module fileurl="file://C:\Users\Formation.M2I-JAV5-04\Desktop\android project\MyAppWithFirebase\.idea\android-advanced-layout-app.iml" filepath="C:\Users\Formation.M2I-JAV5-04\Desktop\android project\MyAppWithFirebase\.idea\android-advanced-layout-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Formation.M2I-JAV5-04\Desktop\android project\MyAppWithFirebase\app\app.iml" filepath="C:\Users\Formation.M2I-JAV5-04\Desktop\android project\MyAppWithFirebase\app\app.iml" />
     </modules>
   </component>
 </project>

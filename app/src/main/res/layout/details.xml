@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6">
+
+
+            <TableRow>
+
+                <TextView android:text="Station : " />
+
+                <TextView android:id="@+id/nom" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TableLayout
+                    android:id="@+id/visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible">
+
+                    <TableRow>
+
+                        <TextView android:text="Ville : " />
+
+                        <TextView android:id="@+id/ville" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="Ligne : " />
+
+                        <TextView android:id="@+id/ligne" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="ID : " />
+
+                        <TextView android:id="@+id/metroId" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView android:text="Insee : " />
+
+                        <TextView android:id="@+id/insee" />
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/map"/>
+
+
+    </LinearLayout>
+
+
